@@ -1,3 +1,20 @@
-seletor{
-    
+section{
+    padding: 50px, 30px, 20px, 60px;
+    margin-left: 40px;
+}
+
+section article{
+    background-color: #ccc;
+    width: 500px;
+    height: 500px;
+}
+
+
+.desafio1{
+color: orange;
+}
+
+#lista1, #lista2{
+color: #0000ff;
+background-color: burlywood;
 }
