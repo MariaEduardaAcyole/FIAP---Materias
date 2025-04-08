@@ -1,0 +1,20 @@
+p{
+    font-size: 35px;
+}
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: sticky;
+    top: 20px;
+}
+.azul{
+    border: solid 4px blue;
+}
+.amarelo{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    background-color: yellow;
+}

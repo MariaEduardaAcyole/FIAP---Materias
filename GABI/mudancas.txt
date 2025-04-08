@@ -1,0 +1,13 @@
+Teor alcoolico
+maturação do vinho 
+distringencia
+acidez 
+doçura
+aroma
+tipo de uva
+cor
+rotulo
+data de retirada do vinho (casamento)
+tipo de garrafa
+rolha
+com gas ou sem 
