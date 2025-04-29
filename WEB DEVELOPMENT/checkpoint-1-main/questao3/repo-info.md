@@ -1,1 +1,0 @@
-Repositório para o Checkpoint #1 – Ambiente, Git e Fundamentos de JavaScript de Engenharia de Software
