@@ -26,3 +26,9 @@ li:nth-child(2n+1){
 input[type="radio"]:checked{
 margin-left: 25px;
 }
+input:disabled{
+    background-color: rgb(20, 208, 198);
+}
+p::first-line{
+    color: burlywood;
+}
