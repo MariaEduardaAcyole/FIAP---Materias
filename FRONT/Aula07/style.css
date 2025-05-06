@@ -1,0 +1,76 @@
+#grad{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red,  yellow);
+}
+
+div.vazio{
+width: 100px;
+height: 100px;
+border: 1px solid black;
+position: absolute;
+left: 200px;
+top: 150px;
+}
+
+div.translate {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 119);
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    transform: translate(10px, 20px);
+}
+div.rotate:hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 119);
+    position: absolute;
+ 
+    transform: rotate(30deg);
+}
+div.transition:hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 119);
+    position: absolute;
+ 
+    transform: rotate(30deg);
+}
+div.scale:hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 119);
+    position: absolute;
+    transform: scale(30deg);
+}
+div.scale{
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+    background-color: yellow;
+}
+div.scale:hover{
+    height: 200px;
+    background-color: rgb(0, 255, 47);
+padding: 10px; 
+   transform: scale(30deg);
+}
+
+.box:hover{
+    background-color: blue;
+width: 100px;
+height: 100px;
+}
+
+.box2:hover{
+    background-color: blue;
+width: 100px;
+height: 100px;
+}
+.box3:hover{
+    background-color: blue;
+width: 100px;
+height: 100px;
+}
