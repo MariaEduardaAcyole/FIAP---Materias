@@ -43,7 +43,7 @@ print(animais)
 
 nome = ['a','b','c']
 print(nome)
-nome.pop(1) #ELIMINA
+nome.pop(1) #ELIMINA  se tiver vazio elimina o ultimo
 print(nome)
 
 
