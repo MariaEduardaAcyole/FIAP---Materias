@@ -15,7 +15,7 @@ print(a)
 def teste (*args): # args é padrão mas pode por outro nome
     print(args)
 
-teste (1,2 'fasdas',4)
+teste(1, 2, 'fasdas', 4)
 
 #############
 def somar(*args): # args é o padrao mas pode por outro nome
@@ -29,6 +29,7 @@ print(a)
 def printa (*args):
     textoJunto = ''
     for palavra in args:
+        
         textoJunto += palavra + ''
         return textoJunto[:-1]
     
