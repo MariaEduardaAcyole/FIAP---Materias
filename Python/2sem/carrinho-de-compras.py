@@ -18,7 +18,7 @@ def ver():
 while True:
     op = input('digete 1 pra adicionar')
     if op == '1':
-        produto = input('digite onome:')
+        produto = input('digite o nome:')
         adicionar(produto)
     elif op =='2':
         produto = input('nome do produto')
