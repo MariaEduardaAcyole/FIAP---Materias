@@ -1,4 +1,5 @@
 # Ordenação usando Bubble Sort menor para o maior
+#Bubble Sort: compara pares de elementos vizinhos e os troca de lugar se estiverem fora de ordem, repetindo o processo até que a lista esteja ordenada.
 l = [12, 68, 95, 41, 25, 71]
 
 print("Antes da ordenação:", l)
