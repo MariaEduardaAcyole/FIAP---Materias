@@ -1,4 +1,6 @@
 # Ordenação usando selection menor
+#Selection Sort: percorre a lista procurando o menor elemento e o coloca na posição correta, repetindo isso para cada posição da lista.
+
 l = [12, 68, 95, 41, 10, 71]
 indice  = 0
 
