@@ -37,12 +37,13 @@ def excluirContato():
 print(excluirContato())
 print(dic)
 
+
 frase = input('frase:')
 
 divisao = frase.split()
-for i in range(divisao):
-    i+=1
-    print(i)
+for i in divisao:
+    print(len(divisao))
 
 print('divisao: ', divisao)
 
+ 
