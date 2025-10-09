@@ -5,13 +5,14 @@
 dic = {}
 
 
-def adicionar_contato(nome):
+def adicionar_contato(nome, tel):
     dic[nome] = tel
     print(nome)
 
 nome = input('nome: ')
 tel = input('tel: ')
-adicionar_contato(nome, tel)
+
+adicionar_contato(nome,tel)
 print(dic)
 
 def consultaNome():
@@ -39,6 +40,9 @@ print(dic)
 frase = input('frase:')
 
 divisao = frase.split()
+for i in range(divisao):
+    i+=1
+    print(i)
 
 print('divisao: ', divisao)
 
