@@ -1,23 +1,26 @@
+# 1. importe e biblioteca requests
 import requests
-#viacep.com.br/ws/01001000/json/
 
+# declare a url
 url = 'https://viacep.com.br/ws/02851000/json/'
+# pegue o cep e adicione na rota
 
-CEP = input('CEP: ')
-urlDada = f'https://viacep.com.br/ws/{CEP}/json/'
-print(urlDada)
+cep = input('CEP: ')
+cepDado = f'https://viacep.com.br/ws/{cep}/json/'
+print(cepDado)
 
-resultado = requests.get(urlDada)
-transformaEmDicionario = resultado.json()
+resultadoRequisicao = requests.get(url)
+transformaEmDicionario = resultadoRequisicao.json()
 
-# extrair as informações da API
 
-def verCidade ():
+def verCidade():
     cidade = transformaEmDicionario['localidade']
     return cidade
+
 def verBairro ():
     bairro = transformaEmDicionario['bairro']
     return bairro
+
 def verRua ():
     rua = transformaEmDicionario['logradouro']
     return rua
@@ -26,4 +29,4 @@ print(verCidade())
 print(verBairro())
 print(verRua())
 
-#
+print(verCidade())
