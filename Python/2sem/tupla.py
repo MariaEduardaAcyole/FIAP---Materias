@@ -38,3 +38,44 @@ def remtupla(t, elem):
         if elem == j:
             l.pop(i)
     return tuple(l)
+
+# =========================
+frutas = ('maçã', 'banana', 'uva', 'banana', 'laranja')
+
+# primeiro e último
+print('primeiro:', frutas[0])
+print('último:', frutas[-1])
+
+# Verifique se uma fruta digitada pelo usuário está na tupla
+entrada = input('Digite o nome da fruta: ')
+
+if entrada in frutas:
+    print('Achei!')
+else:
+    print('Não achei!')
+
+# Função para contar quantas vezes uma fruta aparece
+def repete(frutas, nome):
+    vezes = 0
+    for i in frutas:
+        if i == nome:
+            vezes += 1
+    return vezes
+
+# Chama a função e mostra o resultado
+print(f"A fruta '{entrada}' aparece {repete(frutas, entrada)} vez(es) na tupla.")
+
+#================================
+frutas = ('maçã', 'banana', 'uva', 'laranja')
+print("Tupla original:", frutas)
+
+# converte para lista
+lista_frutas = list(frutas)
+
+# remove o elemento desejado
+lista_frutas.remove('banana')
+
+# converte de volta para tupla
+frutas = tuple(lista_frutas)
+print("Tupla após remoção:", frutas)
+
